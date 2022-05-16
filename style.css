@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:white;
+    background-color:#3d334e;
+  }
+
+.containerBlue{
+    font-size:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    width:100%;
+   margin-left:-30px;
+}
+
+.containerPink{
+    height:80vh;
+    width:100%;
+}
+
+.containerChronometre{
+    font-size:40px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height:60%;
+}
+
+
+
+.lesBoutons{
+    display:flex;
+    justify-content: center;
+}
+
+#start{
+    background-color:#9EBD6E;
+    font-size:2vh;
+    width:250px;
+    height:100px;
+    border:none;
+    border-radius:15px;
+    margin-right:15px;
+    margin-left:15px;
+}
+
+#stop{
+    background-color: #D05353;
+    font-size:2vh;
+    width:250px;
+    height:100px;
+    border:none;
+    border-radius:15px;
+    margin-right:15px;
+}
+
+#reset{
+    background-color: #2A9D8F;
+    font-size:2vh;
+    width:250px;
+    height:100px;
+    border:none;
+    border-radius:15px;
+    margin-right:15px;
+}
+
+#start:hover{
+    background-color:#769449;
+}
+
+#stop:hover{
+    background-color: #da3b3b;
+}
+
+#reset:hover{
+    background-color: #13bda9;
+}
+
+@media only screen and (max-width: 426px) {
+   #start{
+    width:200px;
+    height:80px;
+   }
+
+   #stop{
+    width:200px;
+    height:80px;
+   }
+
+   #reset{
+    width:200px;
+    height:80px;
+   }
+
+   .containerChronometre{
+    font-size:28px;}
+}
